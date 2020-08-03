@@ -1,6 +1,5 @@
 {
-  "browser": [
-    {
+  "browser": [{
       "tag": "chrome",
       "name": "Google Chrome",
       "renderingEngine": "Blink"
@@ -36,8 +35,7 @@
       "renderingEngine": "WebKit"
     }
   ],
-  "api": [
-    {
+  "api": [{
       "tag": "webusb",
       "name": "Web USB API",
       "spec": "https://wicg.github.io/webusb/",
@@ -73,6 +71,10 @@
         "completeness": "yes",
         "since": "Chrome 61"
       },
+      "edge": {
+        "completeness": "yes",
+        "since": "Edge 79"
+      },
       "safari": {
         "completeness": "harmful",
         "has_details": true
@@ -90,6 +92,10 @@
       "chrome": {
         "completeness": "yes",
         "since": "Chrome 56"
+      },
+      "edge": {
+        "completeness": "yes",
+        "since": "Edge 79"
       },
       "opera": {
         "completeness": "partially",
@@ -117,6 +123,10 @@
         "completeness": "partially",
         "since": "Chrome 81",
         "has_details": true
+      },
+      "edge": {
+        "completeness": "partially",
+        "since": "Edge 81"
       },
       "safari": {
         "completeness": "harmful",
